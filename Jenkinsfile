@@ -24,7 +24,7 @@ pipeline{
   post{
     success{
       emailext(
-        subject : "Test passed - JOB ${env.JOB_NAME} ${env.BUILD_NUMBER}"
+        subject : "Test passed - JOB ${env.JOB_NAME} ${env.BUILD_NUMBER}",
         body : """\
          Hello Team,
          All Automation tests have successfully executed.
@@ -39,7 +39,7 @@ pipeline{
     }
     failure{
       emailext(
-      subject : "Test Failed - JOB ${env.JOB_NAME} ${env.BUILD_NUMBER}"
+      subject : "Test Failed - JOB ${env.JOB_NAME} ${env.BUILD_NUMBER}",
       body : """\
       Hello Team,
       Test has been failed.
