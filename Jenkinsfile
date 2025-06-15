@@ -33,7 +33,7 @@ pipeline{
          Best Regards,
           Jenkins CI
         """,
-        to: ${EMAIL_RECIPIENTS}
+        to: "${EMAIL_RECIPIENTS}"
         
       )
     }
@@ -47,7 +47,7 @@ pipeline{
       Please review the details here : ${env.BUILD_URL}
       
       """,
-        to: ${EMAIL_RECIPIENTS}
+        to: "${EMAIL_RECIPIENTS}"
     )
       }
         
