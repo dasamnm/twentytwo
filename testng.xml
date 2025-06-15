@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Advanced Suite" parallel="tests" thread-count="8">
+  <test name="Regression">
+    <classes>
+      <class name="runners.TestRunner"/>
+    </classes>
+  </test>
+  
+</suite>

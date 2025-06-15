@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="1.478" tests="7" skipped="0" failures="2" errors="0">
+<testcase classname="" name="First Scenario - #1.1" time="0.905">
+<system-out><![CDATA[
+Given First "register" 1....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="First Scenario - #1.2" time="0.057">
+<system-out><![CDATA[
+Given First "register" 2....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="First Scenario - #1.3" time="0.043">
+<system-out><![CDATA[
+Given First "register" 3....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="First Scenario - #1.4" time="0.046">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.apache.poi.ss.usermodel.Row.iterator()&quot; because &quot;row&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Row.iterator()" because "row" is null
+	at step.steps.first(steps.java:33)
+	at ✽.First "register" 4(file:///C:/Users/subha/eclipse-workspace/Cucumber13/src/test/java/Features/first.feature:4)
+]]>
+</failure>
+<system-out><![CDATA[
+Given First "register" 4....................................................failed
+]]></system-out>
+</testcase>
+<testcase classname="" name="First Scenario - #1.5" time="0.044">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.apache.poi.ss.usermodel.Row.iterator()&quot; because &quot;row&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Row.iterator()" because "row" is null
+	at step.steps.first(steps.java:33)
+	at ✽.First "register" 5(file:///C:/Users/subha/eclipse-workspace/Cucumber13/src/test/java/Features/first.feature:4)
+]]>
+</failure>
+<system-out><![CDATA[
+Given First "register" 5....................................................failed
+]]></system-out>
+</testcase>
+<testcase classname="" name="" time="0.006">
+<system-out><![CDATA[
+Given Second................................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="Third Scenario" time="0.003">
+<system-out><![CDATA[
+Given Third.................................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
