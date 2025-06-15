@@ -47,7 +47,7 @@ pipeline{
       Please review the details here : ${env.BUILD_URL}
       
       """,
-        to: ${EMAIL_RECIEPNTS}
+        to: ${EMAIL_RECIPIENTS}
     )
       }
         
