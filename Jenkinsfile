@@ -25,7 +25,7 @@ pipeline{
     success{
       emailext(
         subject : "Test passed - JOB ${env.JOB_NAME} ${env.BUILD_NUMBER}"
-        Body : """\
+        body : """\
          Hello Team,
          All Automation tests have successfully executed.
          You can review the details here: ${env.BUILD_URL}
